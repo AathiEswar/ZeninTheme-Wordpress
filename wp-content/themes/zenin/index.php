@@ -5,16 +5,10 @@
  * @package Zenin
  * 
  */
+get_header();
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zenin</title>
-</head>
-<body>
-  Hello From the Zenin Clan
-</body>
-</html>
+<div class="content">This is the body content</div>
+
+<?php 
+get_footer();
