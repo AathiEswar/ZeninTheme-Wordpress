@@ -14,6 +14,8 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
   <?php
   //helps to fire up the external scripts and styles for wordpress themes
   wp_head(); ?>
@@ -33,7 +35,6 @@
     }
   ?>
 
-  <header class="bg-green-600">
-    This is header
+  <header class="">
     <?php get_template_part( '\template-parts\header\nav' ); ?>
   </header>
